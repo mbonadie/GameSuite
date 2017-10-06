@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BaseApp</string>
+    <string name="LoadScreen">Hello</string>
+    <string name="ConnectFour">ConnectFour</string>
+    <string name="Checkers">Checkers</string>
+    <string name="Chess">Chess</string>
+    <string name="ConnectFourGameType">Select Game Type</string>
+</resources>

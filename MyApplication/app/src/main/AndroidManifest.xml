@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mark.baseapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/LoadScreen"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoadScreen"
+            android:screenOrientation="sensorPortrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GameSelection" />
+        <activity
+            android:name=".ConnectFour"
+            android:label="@string/ConnectFour"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Checkers"
+            android:label="@string/Checkers"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".Chess"
+            android:label="@string/Chess"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".ConnectFourType"
+            android:label="@string/ConnectFourGameType"
+            android:screenOrientation="sensorPortrait"
+            ></activity>
+    </application>
+
+</manifest>
